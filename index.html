@@ -1,0 +1,87 @@
+!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>好きなVtuber</title>
+<link rel="stylesheet" href="style.css">
+<script src="suisei.js"></script>
+<script src="hubuki.js"></script>
+<script src="noel.js"></script>
+<script src="ramy.js"></script>
+<script src="mucho.js"></script>
+<script src="karolabo.js"></script>
+</head>
+<br>
+<h1>好きなVtuber</h1>
+<br>
+<h2>アーティスト</h2>
+<p><label>星街すいせい</label>
+<select name="select" onChange="location.href=value;">
+    <option value="#">見たいページ選択してください</option>
+    <option value="https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A">YouTube</option>
+    <option value="https://hololive.hololivepro.com/talents/hoshimachi-suisei/">公式サイト</option>
+    <option value="https://twitter.com/suisei_hosimati?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</option>
+  </select></p>
+  <p><label>白上フブキ</label>
+ <select name="select" onChange="location.href=value;">
+    <option value="#">見たいページ選択してください</option>
+    <option value="https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg">YouTube</option>
+    <option value="https://hololive.hololivepro.com/talents/shirakami-fubuki/">公式サイト</option>
+    <option value="https://twitter.com/shirakamifubuki?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</option>
+  </select></p>
+  <p><label>白銀ノエル</label>
+<select name="select" onChange="location.href=value;">
+    <option value="#">見たいページ選択してください</option>
+    <option value="https://www.youtube.com/channel/UCdyqAaZDKHXg4Ahi7VENThQ">YouTube</option>
+    <option value="https://hololive.hololivepro.com/talents/shirogane-noel/">公式サイト</option>
+    <option value="https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%84%E3%81%BF%E3%82%87%E3%82%93">Twitter</option>
+  </select></p>
+  <p><label>雪花ラミィ</label>
+<select name="select" onChange="location.href=value;">
+    <option value="#">見たいページ選択してください</option>
+    <option value="https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw">YouTube</option>
+    <option value="https://hololive.hololivepro.com/talents/yukihana-lamy/">公式サイト</option>
+    <option value="https://twitter.com/yukihanalamy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</option>
+  </select></p>
+  <p><label>ムーチョ</label>
+<select name="select" onChange="location.href=value;">
+    <option value="#">見たいページ選択してください</option>
+    <option value="https://www.youtube.com/channel/UCjPdpgLbPZ-MT63lV9uNarw">YouTube</option>
+    <option value="https://niko-mu-tyo.hatenablog.com/entry/Vtuber-mu-tyo">紹介ブログ</option>
+    <option value="https://twitter.com/mu_tyo0514?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</option>
+  </select></p>
+  <p><label>かろらぼ</label>
+<select name="select" onChange="location.href=value;">
+    <option value="#">見たいページ選択してください</option>
+    <option value="https://www.youtube.com/channel/UCH7hmpu-VUUmO13HRceDmcw">YouTube</option>
+    <option value="https://twitter.com/karolab_ch">チャンネルTwitter</option>
+    <option value="https://mobile.twitter.com/karolab_hiyo">ひぐらしTwitter</option>
+    <option value="https://twitter.com/karolab_rui">るまTwitter</option>
+  </select></p>
+  <table>
+    <tr>
+    <input type="button" value="星街すいせい3秒後に変更"onclick="imgchange1();setTimeout('bthrees1()',3000)">
+    <td><img src="./image/星街すいせい.jpg" id="logo1" alt="星街すいせい" class="imagechange width="450" height="400"></td>
+    <input type="button" value="白上フブキ3秒後に変更"onclick="imgchange2();setTimeout('bthrees2()',3000)">
+    <td><img src="./image/白上フブキ.jpg" id="logo2" alt="白上フブキ" class="imagechange width="450" height="400"> </td>
+    <input type="button" value="白銀ノエル3秒後に変更"onclick="imgchange3();setTimeout('bthrees3()',3000)">
+    <td><img src="./image/白銀ノエル.jpg" id="logo3" alt="白銀ノエル" class="imagechange width="450" height="400"></td>
+    <input type="button" value="雪花ラミィ3秒後に変更"onclick="imgchange4();setTimeout('bthrees4()',3000)">
+    <td><img src="./image/雪花ラミィ.jpg" id="logo4" alt="雪花ラミィ" class="imagechange width="450" height="400"></td>
+    <input type="button" value="ムーチョ3秒後に変更"onclick="imgchange5();setTimeout('bthrees5()',3000)">
+    <td><img src="./image/ムーチョ.jpg" id="logo5" alt="ムーチョ" class="imagechange width="500" height="400"></td>
+    <input type="button" value="かろらぼ3秒後に変更"onclick="imgchange6();setTimeout('bthrees6()',3000)">
+    <td><img src="./image/かろらぼ.jpg" id="logo6" alt="かろらぼ" class="imagechange width="450" height="400"></td>
+    </tr>
+    <tr>
+      <td>星街すいせい</td>
+      <td>白上フブキ</td>
+      <td>白銀ノエル</td>
+      <td>雪花ラミィ</td>
+      <td>ムーチョ</td>
+      <td>かろらぼ</td>
+      <br>
+    </tr>
+  </table>
+  </body>
+  </html>
