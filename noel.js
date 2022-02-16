@@ -1,2 +1,2 @@
-function imgchange3 () {document.getElementById('logo3').src = './ image / noel2.jpg';}
-function bthrees3 () {document.getElementById('logo3').src = './ image / noel.jpg';}
+function imgchange2 () {document.getElementById('logo2').src = './ image / noel2.jpg';}
+function bthrees2 () {document.getElementById('logo2').src = './ image / noel.jpg';}

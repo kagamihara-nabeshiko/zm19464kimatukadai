@@ -1,2 +1,2 @@
-function imgchange5 () {document.getElementById('logo5').src = '。/ image / mucho2.jpg';}
-function bthrees5 () {document.getElementById('logo5').src = '。/ image / mucho.jpg';}
+function imgchange4 () {document.getElementById('logo4').src = '。/ image / mucho2.jpg';}
+function bthrees4 () {document.getElementById('logo4').src = '。/ image / mucho.jpg';}

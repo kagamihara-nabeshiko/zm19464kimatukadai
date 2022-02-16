@@ -1,2 +1,2 @@
-function imgchange1 () {document.getElementById('logo1').src = './ image / suisei2.jpg';}
-function bthrees1 () {document.getElementById('logo1').src = './ image / suisei.jpg';}
+function imgchange () {document.getElementById('logo').src = './ image / suisei2.jpg';}
+function bthrees () {document.getElementById('logo').src = './ image / suisei.jpg';}
